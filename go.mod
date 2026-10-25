@@ -3,6 +3,7 @@ module chatping-server
 go 1.27.1
 
 require (
+	github.com/google/uuid v1.6.0
 	github.com/jackc/pgx/v5 v5.11.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/redis/go-redis/v9 v9.23.0
